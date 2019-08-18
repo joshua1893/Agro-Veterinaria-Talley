@@ -1,0 +1,70 @@
+
+#color-c{
+    background-color: #343334;
+}
+
+
+/* Tamaño de la letra en el formulario derecho */
+#Clientes .Formulario-Derecha h3{
+    font-size: 20px;
+}
+
+/* Tamaño de la letra en el formulario derecho */
+#Clientes .Formulario-Izquierda h3{
+    font-size: 20px;
+}
+
+/* Ajustes */
+.cont-cliente h2{
+    font-size: 40px;
+    color: black;
+}
+
+.cont-cliente p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.formulario{
+    width: 500px;
+    max-width: 100;
+    margin:auto;
+}
+
+/* el contenedor de todos los elementos de los cientes */
+#Clientes .cont-cliente{
+    text-align: center;
+}
+
+/* Columna Izquierda del formulario */
+#Clientes .Formulario-Izquierda{
+    float: left; 
+    width: 45%; 
+    text-align: justify;
+}
+
+/* Columna Derecha del formulario */
+#Clientes .Formulario-Derecha{
+    float: right;
+    width: 45%; 
+    text-align: justify;   
+}
+
+@media all and (max-width: 600px){
+    #Clientes .cont-cliente{
+        width: auto;
+        height: auto;
+    }
+
+    #Cliente .Formulario-Derecha{
+        width: auto;
+        height: auto;
+
+    }
+
+    #Cliente .Formulario-Izquierda{
+        width: auto;
+        height: auto;
+
+    }
+}

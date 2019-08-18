@@ -1,0 +1,85 @@
+
+
+#a-ver{
+    background-color: #343334;
+    color: white;
+}
+/* contenedor izquierdo */
+#Consultas .Consultas-Izquierda{
+    padding: 10px; 
+    float: left; 
+    width: 45%; 
+    text-align: justify;
+}
+
+/* contenedor Derecho */
+#Consultas .Consultas-Derecha{
+    padding: 10px;
+    float: right;
+    width: 45%; 
+    text-align: justify;
+}
+
+/* Alineacion */
+#Nose{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Consultas-Izquierda{
+    width: 50%;
+    max-width: 50%;
+    height: 450px;
+}
+
+.Consultas-Izquierda .calendar__info{
+    display: flex;
+    align-items: center;
+    padding: 0 0.5em;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.Consultas-Izquierda .calendar__info .calendar__prev,
+.Consultas-Izquierda .calendar__info .calendar__next{
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.Consultas-Izquierda .calendar__info .calendar__prev{
+    margin-right: auto;
+}
+
+.Consultas-Izquierda .calendar__info .calendar__next{
+    margin-left: auto;
+}
+
+.Consultas-Izquierda .calendar__week,
+.Consultas-Izquierda .calendar__dates{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 50px;
+    font-size: 20px;
+}
+
+.Consultas-Izquierda .calendar__info .calendar__month,
+.calendar .calendar__info .calendar__year{
+    padding: .5em 1em
+}
+
+.Consultas-Izquierda .calendar_week .calendar__item{
+    text-align: center;
+    line-height: 2;
+}
+
+/* .calendar__today{
+    background: lightcoral;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+} */
+
+.calendar__last__days{
+     opacity: 0.3;
+}
