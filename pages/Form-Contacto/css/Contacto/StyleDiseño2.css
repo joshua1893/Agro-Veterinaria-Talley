@@ -1,0 +1,270 @@
+
+/* Estilos para banner */
+.slider{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 10s infinite alternate linear;
+    
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    align: center;
+    padding: -50%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+
+
+/* Estilos para Formulario */
+.form_Initial{
+    width: 1000px;
+    height: 500px;
+    margin: 10px auto;
+    display: flex;
+    border-radius: 10px;
+    background-color: #0093E9;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    overflow: hidden;
+    border: slategray;
+    border-radius: 0 50px;
+    box-shadow: opx opx 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para Encabezado */
+
+.Info-Contact{
+    width: 66%;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center center;
+
+    align-items: center;
+    justify-content: center;
+}
+
+form.FormularioContact{
+    width: 62%;
+    background-color: #fff;
+    padding: 20px 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form.FormularioContact h1{
+    font-size:24px;
+    font-weight: 300;
+    color: #303030;
+    margin-bottom:20px;
+}
+
+
+.User-message input,
+.User-message textarea{
+    width: 100%;
+    padding: 8px 0px 20px;
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+    margin-bottom:10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5a5a5a;
+    outline: none;
+}
+
+.User-message textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 80px;
+}
+
+.User-message input[type="button"]{
+    width: 180px;
+    background: #4091ec;
+    pad: 10px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    margin-left: 240px;
+    
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Titulo{
+    margin-bottom: 10px;
+
+}
+
+.Titulo span{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.DatoInfo p{
+    
+    margin-inline-start: 90px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.DatoInfo p span{
+    font-size:20px;
+    text-align: justify;
+}
+
+.RedesSociales h2{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.RedesSociales p{
+ 
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-inline-start: 90px;
+}
+    
+.RedesSociales p span{
+    font-size:20px;
+}
+
+/* Ventana Modal*/
+.modal{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MensajeModal{
+    background: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+
+}
+
+.MensajeModal h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.MensajeModal h3 ::after{
+    content:"";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #0093E9;
+    margin: 10px 0px 15px;
+}
+
+.MensajeModal p{
+    font-size: 16px;
+}
+
+.MensajeModal #btnClose{
+    display: inline-block;
+    padding: 3px 10px;
+    margin-top: 10px;
+
+    background: #E25151;
+    color: #fff;
+    border: 2px solid #B14141;
+    cursor: pointer;
+    float: right;
+}
+
+.MensajeModal #btnClose :hover{
+    background: red;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 640px){
+
+    .form_Initial{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Info-Contact{
+        width: 100%;
+        height: 100%;
+    }
+
+    .Datainfo{
+        width: 100%;
+        height: 100%;
+
+    }
+    .RedesSociales{
+        width: 100%;
+        height: 100%;
+    }
+
+    .User-message{
+        width: 100%;
+        height: 100%;
+    }
+
+    #btnEnviar{
+        float: right;
+    }
+
+    .slider{
+        width: auto;
+        height: auto;
+    }
+    .FormularioContact{
+        width: 100%;
+        height: 100%;
+         
+    }
+
+}
