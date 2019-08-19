@@ -1,0 +1,50 @@
+.prueba
+{
+    background-color: white;
+}
+
+/* solo no lo toquen o se daña :,v */
+.prueba p
+{
+  text-align: right;  
+}
+.prueba h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+#xd img
+{
+    width: 300px;
+    height: 300px;
+    margin-right: 140px;
+    border-radius: 1000px;
+}
+
+#xd{
+    background-color: rgb(128, 128, 128);
+    position: relative;
+    /* left: 7%; */
+}
+
+.Formulario-Derecha{
+    padding: 100px;
+    float: right;
+    width: 45%; 
+    text-align: justify;
+}
+
+.Formulario-Derecha h3{
+    padding: 5%;
+}
+
+.Formulario-Izquierda h3{
+    padding: 5%;
+}
+.Formulario-Izquierda{
+    padding: 100px; 
+    float: left; 
+    width: 45%; 
+    text-align: justify;
+}

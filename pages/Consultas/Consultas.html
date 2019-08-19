@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agro - Veterinaria Talley</title>
+    <link rel="stylesheet" href="../../css/consultas/fontello.css">
+    <link rel="stylesheet" href="../../css/consultas/estilos.css">
+</head>
+
+<body id="a-ver">
+
+    <header>
+        <div class="contenedor">
+            <a href="index.html"><img src="../../img/index/LogoVeterinaria.png"></a>            
+            <h1>Agro - Veterinaria Talley</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="">Inicio</a>
+                <a href="">Productos</a>
+                <a href="">Servicios</a>
+                <a href="">Nosotros</a>
+                <a href="">Contactos</a>
+                <a href="">Acceder</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <section id="banner">
+            <img src="../../img/index/banner.jpg" alt="">
+            <div class="contenedor">                
+                <h2>Mascotas y niños felices</h2>
+                <p>¿Cuál es la mejor mascota para usted?</p>
+                <a href="#">Leer más</a>
+                
+            </div>
+        </section>
+        <p id="Nose">Fácil y sencillo, siguiendo los siguientes pasos: <br>
+            Los campos marcados con asteriscos (*) son obligatorios</p> <br><br>
+
+        <section id="Consultas">
+            <div class="XD">
+                <div class="Consultas-Izquierda">
+                            <div class="calendar__info">
+                                    <div class="calendar__prev" id="prev-month">&#9664;</div>
+                                    <div class="calendar__month" id="month"></div>
+                                    <div class="calendar__year" id="year"></div>
+                                    <div class="calendar__next" id="next-month">&#9654;</div>
+                                </div>
+                    
+                                <div class="calendar__week">
+                                    <div class="calendar__day calendar__item">Lun</div>
+                                    <div class="calendar__day calendar__item">Mar</div>
+                                    <div class="calendar__day calendar__item">Mie</div>
+                                    <div class="calendar__day calendar__item">Jue</div>
+                                    <div class="calendar__day calendar__item">Vie</div>
+                                    <div class="calendar__day calendar__item">Sab</div>
+                                    <div class="calendar__day calendar__item">Dom</div>
+                                </div>
+                    
+                                <div class="calendar__dates" id="dates"></div>
+                </div>
+                    <script src="../../js/Consultas/calendario.js"></script>
+
+                
+                <div class="Consultas-Derecha">
+                    <h3>3. Dinos algunas cosas sobre tu mascota:</h3>
+                    <h3>* Tipo de mascota</h3>
+                    <select class="redondeado" class="Derecha" name="departamento" required>
+                            <option value="Departamentos">Tipo de mascota</option>
+                            <option value="Chinandega">Perro</option>
+                            <option value="León">Felino</option>
+                            <option value="Managua">Vacuno</option>
+                            <option value="Carazo">Porcino</option>
+                            <option value="Masaya">Aves</option>
+                        </select>
+                    <h3>*Nombre de tu mascota</h3>
+                    <input class="redondeado" type="text" name="Consulta">
+                    <h3>*Motivo de consulta</h3>
+                    <textarea class="redondeado" name="Direccion" id="" cols="50" rows="10" required ></textarea> <br>
+                    <button class="Pedir-consulta">Pedir consulta</button>
+                </div>
+            </div>
+            </section>
+
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p class="copy">Agro - Veterinaria Talley &copy; 2019</p>
+            <div class="sociales">
+                <a class="icon-facebook-squared" href="#"></a>
+                <a class="icon-gmail" href="#"></a>
+                <a class="icon-location" href="#"></a>
+                <a class="icon-whatsapp" href="#"></a>
+                <a class="icon-phone" href="#"></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

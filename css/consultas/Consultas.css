@@ -1,0 +1,162 @@
+
+/* EVita que el cuerpo y el pie de pagina de mezclen */
+#Consultas{
+    overflow: auto;
+}
+/* contenedor izquierdo */
+#Consultas .Consultas-Izquierda{
+    padding: 10px; 
+    float: left; 
+    width: 45%; 
+    text-align: justify;
+}
+
+/* contenedor Derecho */
+#Consultas .Consultas-Derecha{
+    padding: 10px;
+    float: right;
+    width: 45%; 
+    text-align: justify;
+}
+
+/* Alineacion */
+#Nose{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Contededor iquierdo */
+.Consultas-Izquierda{
+    width: 50%;
+    max-width: 50%;
+    height: 450px;
+}
+
+/* Calendario */
+.Consultas-Izquierda .calendar__info{
+    display: flex;
+    align-items: center;
+    padding: 0 0.5em;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.Consultas-Izquierda .calendar__info .calendar__prev,
+.Consultas-Izquierda .calendar__info .calendar__next{
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.Consultas-Izquierda .calendar__info .calendar__prev{
+    margin-right: auto;
+}
+
+.Consultas-Izquierda .calendar__info .calendar__next{
+    margin-left: auto;
+}
+
+.Consultas-Izquierda .calendar__week,
+.Consultas-Izquierda .calendar__dates{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 50px;
+    font-size: 20px;
+}
+
+.Consultas-Izquierda .calendar__info .calendar__month,
+.calendar .calendar__info .calendar__year{
+    padding: .5em 1em
+}
+
+.Consultas-Izquierda .calendar_week .calendar__item{
+    text-align: center;
+    line-height: 2;
+}
+
+/* .calendar__today{
+    background: lightcoral;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+} */
+
+.calendar__last__days{
+     opacity: 0.3;
+}
+
+/* Estilo de los textos */
+
+.redondeado {
+    border-radius: 5px;
+    background-color: #def;
+    border: 1px solid #DBE1EB;
+    font-size: 18px;
+    font-family: Arial, Verdana;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #FFFFFF;
+    background: linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+    color: #2E3133;
+  }
+
+  /* Estilo al boton de pedir consultas */
+  .Pedir-consulta{
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .Pedir-consulta {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(128, 128, 128);
+}
+
+  .Pedir-consulta:hover{
+    background-color: rgb(128, 128, 128);
+    color: white;
+  }
+
+  @media all  and (max-width: 600px){
+    #Clientes .cont-cliente{
+        width: auto;
+        height: auto;
+    }
+
+    #Consultas .Consultas-Derecha{
+        width: auto;
+        height: auto;
+        
+
+    }
+
+    #Consultas .Consultas-Izquierda{
+        width: auto;
+        height: auto;
+        
+    }
+
+  }
