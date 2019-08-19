@@ -1,0 +1,126 @@
+
+/* #color-c{
+    background-color: #343334;
+} */
+
+
+/* Tamaño de la letra en el formulario derecho */
+#Clientes .Formulario-Derecha h3{
+    font-size: 20px;
+}
+
+/* Tamaño de la letra en el formulario derecho */
+#Clientes .Formulario-Izquierda h3{
+    font-size: 20px;
+}
+
+/* Ajustes */
+.cont-cliente h2{
+    font-size: 40px;
+    color: black;
+}
+
+.cont-cliente p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.formulario{
+    width: 500px;
+    max-width: 100;
+    margin:auto;
+}
+
+/* el contenedor de todos los elementos de los cientes */
+#Clientes .cont-cliente{
+    text-align: center;
+}
+
+/* Columna Izquierda del formulario */
+#Clientes .Formulario-Izquierda{
+    float: left; 
+    width: 45%; 
+    text-align: justify;
+}
+
+/* Columna Derecha del formulario */
+#Clientes .Formulario-Derecha{
+    float: right;
+    width: 45%; 
+    text-align: justify;   
+}
+
+@media all and (max-width: 600px){
+    #Clientes .cont-cliente{
+        width: auto;
+        height: auto;
+    }
+
+    #Cliente .Formulario-Derecha{
+        width: auto;
+        height: auto;
+
+    }
+
+    #Cliente .Formulario-Izquierda{
+        width: auto;
+        height: auto;
+
+    }
+}
+
+/* Estilo de los textos */
+
+.redondeado {
+    border-radius: 5px;
+    background-color: #def;
+    border: 1px solid #DBE1EB;
+    font-size: 18px;
+    font-family: Arial, Verdana;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #FFFFFF;
+    background: linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+    color: #2E3133;
+  }
+
+  /* Estilo al boton de Actualizar */
+
+  .Actualizar{
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .Actualizar {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+  .Actualizar:hover{
+    background-color: #008CBA;
+    color: white;
+  }
