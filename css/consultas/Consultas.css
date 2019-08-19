@@ -1,8 +1,23 @@
 
+<<<<<<< HEAD
 /* EVita que el cuerpo y el pie de pagina de mezclen */
 #Consultas{
     overflow: auto;
 }
+=======
+
+<<<<<<< HEAD
+/* #a-ver{
+    background-color: #343334;
+    color: white;
+} */
+=======
+#a-ver{
+    background-color: #343334;
+    color: white;
+}
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
 /* contenedor izquierdo */
 #Consultas .Consultas-Izquierda{
     padding: 10px; 
@@ -25,14 +40,28 @@
     font-size: 30px;
 }
 
+<<<<<<< HEAD
 /* Contededor iquierdo */
+=======
+<<<<<<< HEAD
+/* Contededor iquierdo */
+=======
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
 .Consultas-Izquierda{
     width: 50%;
     max-width: 50%;
     height: 450px;
 }
 
+<<<<<<< HEAD
 /* Calendario */
+=======
+<<<<<<< HEAD
+/* Calendario */
+=======
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
 .Consultas-Izquierda .calendar__info{
     display: flex;
     align-items: center;
@@ -43,7 +72,15 @@
 
 .Consultas-Izquierda .calendar__info .calendar__prev,
 .Consultas-Izquierda .calendar__info .calendar__next{
+<<<<<<< HEAD
     color: black;
+=======
+<<<<<<< HEAD
+    color: black;
+=======
+    color: white;
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
     cursor: pointer;
     font-size: 30px;
 }
@@ -83,6 +120,10 @@
 
 .calendar__last__days{
      opacity: 0.3;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
 }
 
 /* Estilo de los textos */
@@ -113,7 +154,11 @@
   .Pedir-consulta{
     color: #0099CC;
     background: transparent;
+<<<<<<< HEAD
     border: 2px solid rgb(128, 128, 128);
+=======
+    border: 2px solid #0099CC;
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
     border-radius: 6px;
     border: none;
     color: white;
@@ -132,6 +177,7 @@
   .Pedir-consulta {
     background-color: white; 
     color: black; 
+<<<<<<< HEAD
     border: 2px solid rgb(128, 128, 128);
 }
 
@@ -160,3 +206,15 @@
     }
 
   }
+=======
+    border: 2px solid #008CBA;
+}
+
+  .Pedir-consulta:hover{
+    background-color: #008CBA;
+    color: white;
+  }
+=======
+}
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812

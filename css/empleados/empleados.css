@@ -1,9 +1,22 @@
 
+<<<<<<< HEAD
 /* Esto es para que pie de pagina no se mescle con el cuerpo */
 #Clientes{
     overflow: auto;
     /* background-color: gray; */
 }
+=======
+<<<<<<< HEAD
+/* #color-c{
+    background-color: #343334;
+} */
+=======
+#color-c{
+    background-color: #343334;
+}
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
+
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
 
 /* Tamaño de la letra en el formulario derecho */
 #Clientes .Formulario-Derecha h3{
@@ -42,25 +55,35 @@
     float: left; 
     width: 45%; 
     text-align: justify;
+<<<<<<< HEAD
     
+=======
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
 }
 
 /* Columna Derecha del formulario */
 #Clientes .Formulario-Derecha{
     float: right;
     width: 45%; 
+<<<<<<< HEAD
     text-align: justify;  
      
 }
 
 
 
+=======
+    text-align: justify;   
+}
+
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
 @media all and (max-width: 600px){
     #Clientes .cont-cliente{
         width: auto;
         height: auto;
     }
 
+<<<<<<< HEAD
     #Clientes .Formulario-Derecha{
         width: auto;
         height: auto;
@@ -77,6 +100,20 @@
         width: auto;
         height: auto;
     }
+=======
+    #Cliente .Formulario-Derecha{
+        width: auto;
+        height: auto;
+
+    }
+
+    #Cliente .Formulario-Izquierda{
+        width: auto;
+        height: auto;
+
+    }
+<<<<<<< HEAD
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
 }
 
 /* Estilo de los textos */
@@ -108,7 +145,11 @@
   .Actualizar{
     color: #0099CC;
     background: transparent;
+<<<<<<< HEAD
     border: 2px solid rgb(128, 128, 128);
+=======
+    border: 2px solid #0099CC;
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
     border-radius: 6px;
     border: none;
     color: white;
@@ -127,6 +168,7 @@
   .Actualizar {
     background-color: white; 
     color: black; 
+<<<<<<< HEAD
     border: 2px solid rgb(128, 128, 128);
 }
 
@@ -134,3 +176,15 @@
     background-color: rgb(128, 128, 128);
     color: white;
   }
+=======
+    border: 2px solid #008CBA;
+}
+
+  .Actualizar:hover{
+    background-color: #008CBA;
+    color: white;
+  }
+=======
+}
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
+>>>>>>> ac13fad90d391e3df290adc7ebc2d95634d17812
