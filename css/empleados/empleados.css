@@ -1,7 +1,13 @@
 
+<<<<<<< HEAD
 /* #color-c{
     background-color: #343334;
 } */
+=======
+#color-c{
+    background-color: #343334;
+}
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
 
 
 /* Tamaño de la letra en el formulario derecho */
@@ -67,6 +73,7 @@
         height: auto;
 
     }
+<<<<<<< HEAD
 }
 
 /* Estilo de los textos */
@@ -124,3 +131,6 @@
     background-color: #008CBA;
     color: white;
   }
+=======
+}
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb

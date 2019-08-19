@@ -1,9 +1,16 @@
 
 
+<<<<<<< HEAD
 /* #a-ver{
     background-color: #343334;
     color: white;
 } */
+=======
+#a-ver{
+    background-color: #343334;
+    color: white;
+}
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
 /* contenedor izquierdo */
 #Consultas .Consultas-Izquierda{
     padding: 10px; 
@@ -26,14 +33,20 @@
     font-size: 30px;
 }
 
+<<<<<<< HEAD
 /* Contededor iquierdo */
+=======
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
 .Consultas-Izquierda{
     width: 50%;
     max-width: 50%;
     height: 450px;
 }
 
+<<<<<<< HEAD
 /* Calendario */
+=======
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
 .Consultas-Izquierda .calendar__info{
     display: flex;
     align-items: center;
@@ -44,7 +57,11 @@
 
 .Consultas-Izquierda .calendar__info .calendar__prev,
 .Consultas-Izquierda .calendar__info .calendar__next{
+<<<<<<< HEAD
     color: black;
+=======
+    color: white;
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
     cursor: pointer;
     font-size: 30px;
 }
@@ -84,6 +101,7 @@
 
 .calendar__last__days{
      opacity: 0.3;
+<<<<<<< HEAD
 }
 
 /* Estilo de los textos */
@@ -140,3 +158,6 @@
     background-color: #008CBA;
     color: white;
   }
+=======
+}
+>>>>>>> ded4fa199785083ba5054b092d21d7b445297edb
