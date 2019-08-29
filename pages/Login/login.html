@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Login Veterinaria Talley</title>
 </head>
+
 <body>
     <div class="Login-Container">
         <h1>Inicia sesión con tu cuenta</h1>
@@ -22,20 +24,20 @@
             <input id="contrasena" type="password" placeholder="Escriba su contraseña">
 
             <!-- Seleccionar tipo -->
-            <select id="cuenta" >
+            <select id="cuenta">
                 <option value="">Seleccionar cuenta</option>
                 <option value="Administrador">Administrador</option>
                 <option value="Cliente">Cliente</option>
                 <option value="Empleado">Empleado</option>
             </select>
-                
+
             <input id="btnAcceder" type="submit" value="Ingresar al sistema" onclick="ValidarCuenta()">
 
             <!-- Cuenta nueva -->
-           <p>¿No te has registrado? <a class="link" href="Registro.html">Registrate</a></p>
-            
+            <p>¿No te has registrado? <a class="link" href="Registro.html">Registrate</a></p>
         </form>
     </div>
     <script src="../Javascript/ScriptLogin.js"></script>
 </body>
+
 </html>
